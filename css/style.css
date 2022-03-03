@@ -144,4 +144,23 @@
   #menubar.active .menu-bar:nth-child(3) {
     transform: translateY(-5px) rotate(3555deg);
   }
+
+  .container {
+    padding: 0 7vw;
+  }
+
+  #about {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+    border-left: 3px solid rgba(255, 231, 1, 0.7);
+    background: rgba(98, 67, 21, 0.32);
+    font-weight: 400;
+    font-size: 14px;
+  }
 }
