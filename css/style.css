@@ -147,6 +147,7 @@
 
   .container {
     padding: 0 7vw;
+    background-color: rgba(80, 21, 31, 0.75);
   }
 
   #about {
