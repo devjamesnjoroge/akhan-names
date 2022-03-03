@@ -13,9 +13,9 @@
         <div class="nav">
           <div class="logo"></div>
           <ul>
-            <li><a href="#about">about</a></li>
-            <li><a href="#checker">about</a></li>
-            <li><a href="#contact">about</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#checker">Checker</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <div class="hambager">
             <div class="menu-bar"></div>
@@ -23,6 +23,97 @@
             <div class="menu-bar"></div>
           </div>
         </div>
+        <div class="container" id="body">
+          <div class="row" id="about">
+            <div class="col-sm">
+              <p>
+                Akan names are derived from Ghanian culture. Frequently in
+                Ghana, children are given their first name as a 'day name' which
+                corresponds to the day in the week they were born. below are
+                Ghanian day names
+              </p>
+            </div>
+          </div>
+          <div class="row" id="table">
+            <div class="col-sm">
+              <table>
+                <tr>
+                  <th>Day</th>
+                  <th>Male</th>
+                  <th>Female</th>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Kwasi</td>
+                  <td>Akosua</td>
+                </tr>
+                <tr>
+                  <td>Monday</td>
+                  <td>Kwadwo</td>
+                  <td>Adwoa</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>Kwabena</td>
+                  <td>Abenaa</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>Kwaku</td>
+                  <td>Akua</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>Yow</td>
+                  <td>Yaa</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>Kofi</td>
+                  <td>Afua</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>Kwame</td>
+                  <td>Ama</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="row" id="checker">
+            <div class="col-sm">
+              <form action="submit">
+                <label for="date">Date of birth <strong>*</strong></label>
+                <input type="number" name="date" id="date" required />
+                <label for="month">Month of birth <strong>*</strong></label>
+                <select name="month" id="month">
+                  <option value="month">Month</option>
+                  <option value="jan">January</option>
+                  <option value="feb">February</option>
+                  <option value="march">March</option>
+                  <option value="april">April</option>
+                  <option value="may">May</option>
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="aug">August</option>
+                  <option value="sep">September</option>
+                  <option value="oct">October</option>
+                  <option value="nov">November</option>
+                  <option value="dec">December</option>
+                </select>
+                <label for="year">Year of birth <strong>*</strong></label>
+                <input type="number" name="year" id="year" required />
+                <button type="submit">Check Your Akhan Name</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>
+            Challenge from <span>Moringa School</span>. Coded by
+            <span>James Njoroge</span>
+          </p>
+        </footer>
       </div>
     </div>
   </body>
