@@ -6,6 +6,10 @@
 }
 
 @media screen and (max-width: 653px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .bkg-overlay {
     background-image: url("../images/ghanian.jpg");
     background-position: center;
@@ -148,6 +152,7 @@
   .container {
     padding: 0 7vw;
     background-color: rgba(80, 21, 31, 0.75);
+    width: 100vw;
   }
 
   #about {
@@ -163,5 +168,34 @@
     background: rgba(98, 67, 21, 0.32);
     font-weight: 400;
     font-size: 14px;
+    color: #ffffff;
+  }
+
+  #table {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    padding-bottom: 10vh;
+  }
+
+  th {
+    color: #ffffff;
+  }
+
+  td:nth-child(1) {
+    color: #ffffff;
+  }
+
+  td:nth-child(2),
+  td:nth-child(3) {
+    color: #f1f1f1;
+    font-size: 14px;
+  }
+
+  tr,
+  th,
+  td {
+    border: 1px solid #ffe701;
+    padding: 1vh 6vw;
   }
 }
