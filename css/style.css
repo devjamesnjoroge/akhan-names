@@ -22,6 +22,15 @@
     width: 100vw;
   }
 
+  .nav.changebg {
+    display: flex;
+    height: max-content;
+    background-color: #6f1c2b;
+    flex-direction: column;
+    z-index: 99;
+    width: 100vw;
+  }
+
   .upper-nav {
     display: flex;
     justify-content: space-between;

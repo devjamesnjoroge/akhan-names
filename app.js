@@ -6,5 +6,5 @@ var nav = document.querySelector(".nav");
 hambuger.addEventListener("click", function () {
   hambuger.classList.toggle("active");
   lowerNav.classList.toggle("is-active");
-  nav.style.backgroundColor = "#6f1c2b";
+  nav.classList.toggle("changebg");
 });
