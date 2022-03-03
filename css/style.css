@@ -34,7 +34,14 @@
   }
 
   .logo h2 {
-    font-size: 22px;
+    font-size: 16px;
+    margin-left: 2vw;
+    text-transform: uppercase;
+    color: #ffe701;
+  }
+
+  .logo h2 span {
+    color: #50ff13;
   }
 
   #flag {
