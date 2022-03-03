@@ -14,6 +14,15 @@
     background-image: url("../images/ghanian.jpg");
     background-position: center;
     background-size: cover;
+    height: 170vh;
+    width: 100vw;
+    position: absolute;
+    margin-top: 80px;
+    z-index: -1;
+  }
+
+  .bkg-overlay.mvDown {
+    margin-top: 230px;
   }
 
   .nav {
