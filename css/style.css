@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 @media screen and (max-width: 653px) {
@@ -67,6 +68,7 @@
     text-decoration: none;
     color: #ffffff;
     text-align: center;
+    font-weight: 400;
   }
 
   .hambuger {
