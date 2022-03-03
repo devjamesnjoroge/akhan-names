@@ -29,6 +29,7 @@
     flex-direction: column;
     z-index: 99;
     width: 100vw;
+    transition: background-color 1ms ease 1ms;
   }
 
   .upper-nav {
@@ -66,12 +67,18 @@
     opacity: 0;
     top: -1000px;
     position: absolute;
+    transition-duration: 5ms;
+    transition-timing-function: all ease-in-out;
+    transition-delay: 5ms;
   }
 
   #navUl.is-active {
     position: relative;
     top: 0;
     opacity: 1;
+    transition-duration: 0.3;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
   }
 
   .nav ul li {
