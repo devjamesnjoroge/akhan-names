@@ -7,6 +7,10 @@
 
 /* desktop */
 @media screen and (min-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .nav {
     display: flex;
     flex-direction: row;
@@ -67,7 +71,6 @@
   .container {
     padding: 0 7vw;
     background-color: rgba(80, 21, 31, 0.75);
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,6 +145,7 @@
 
   input {
     caret-color: #6f1c2b;
+    height: 50px;
   }
 
   input:focus,
@@ -426,6 +430,7 @@
 
   input {
     caret-color: #6f1c2b;
+    height: 40px;
   }
 
   input:focus,
