@@ -62,48 +62,62 @@ function calculator(gender, month, date, year) {
 
   switch (switchAns) {
     case "1male":
+    case "0male":
       alert("Your Akan name is " + akanMale[0]);
       break;
     case "1female":
+    case "0female":
       alert("Your Akan name is " + akanFmale[0]);
       break;
     case "2male":
+    case "-6male":
       alert("Your Akan name is " + akanMale[1]);
       break;
     case "2female":
+    case "-6female":
       alert("Your Akan name is " + akanFmale[1]);
       break;
     case "3male":
+    case "-5male":
       alert("Your Akan name is " + akanMale[2]);
       break;
     case "3female":
+    case "-5female":
       alert("Your Akan name is " + akanFmale[2]);
       break;
     case "4male":
+    case "-4male":
       alert("Your Akan name is " + akanMale[3]);
       break;
     case "4female":
+    case "-4female":
       alert("Your Akan name is " + akanFmale[3]);
       break;
     case "5male":
+    case "-3male":
       alert("Your Akan name is " + akanMale[4]);
       break;
     case "5female":
+    case "-3female":
       alert("Your Akan name is " + akanFmale[4]);
       break;
     case "6male":
+    case "-2male":
       alert("Your Akan name is " + akanMale[5]);
       break;
     case "6female":
+    case "-2female":
       alert("Your Akan name is " + akanFmale[5]);
       break;
     case "7male":
+    case "-1male":
       alert("Your Akan name is " + akanMale[7]);
       break;
     case "7female":
+    case "-1female":
       alert("Your Akan name is " + akanFmale[7]);
       break;
     default:
-      alert("An error occurred, details sent to server");
+      alert("An error occured, please try again");
   }
 }
