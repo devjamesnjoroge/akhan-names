@@ -222,7 +222,14 @@
   }
 
   .bkg-overlay.mvDown {
+    background-image: url("../images/ghanian.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 188vh;
+    width: 100vw;
+    position: absolute;
     margin-top: 230px;
+    z-index: -1;
   }
 
   .nav {
