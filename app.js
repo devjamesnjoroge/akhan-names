@@ -25,13 +25,13 @@ form.addEventListener("submit", function (submit) {
     alert("Please select a gender");
     event.preventDefault();
   } else if (date <= 0 || date > 31) {
-    alert("invalid date");
+    alert("invalid date, correct date(from 1 to 31)");
     event.preventDefault();
   } else if ("month" === month) {
     alert("Please select a month");
     event.preventDefault();
   } else if (year < 1900 || year > 2022) {
-    alert("invalid year");
+    alert("invalid year, correct format(e.g 2000, 1990)");
     event.preventDefault();
   } else {
     calculator(gender, month, date, year);
