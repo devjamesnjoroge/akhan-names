@@ -183,6 +183,7 @@
     height: 60px;
     background-color: #ffe701;
     border: none;
+    cursor: pointer;
     border-radius: 3px;
     font-size: large;
   }
@@ -476,6 +477,7 @@
     height: 40px;
     background-color: #ffe701;
     border: none;
+    cursor: pointer;
     border-radius: 3px;
   }
 
