@@ -210,6 +210,10 @@
   #checker {
     height: 70vh;
     padding: 10vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   form {
@@ -222,6 +226,16 @@
   label {
     color: #50ff13;
     font-weight: 400;
+  }
+
+  input {
+    caret-color: #6f1c2b;
+  }
+
+  input:focus,
+  select:focus {
+    outline: none;
+    outline: 1px solid #ffe701;
   }
 
   label strong {
