@@ -110,12 +110,11 @@ function calculator(gender, month, date, year) {
       alert("Your Akan name is " + akanFmale[5]);
       break;
     case "7male":
-    case "-1male":
-      alert("Your Akan name is " + akanMale[7]);
+      alert("Your Akan name is " + akanMale[6]);
       break;
     case "7female":
-    case "-1female":
-      alert("Your Akan name is " + akanFmale[7]);
+      alert("Your Akan name is " + akanFmale[6]);
+
       break;
     default:
       alert("An error occured, please try again");
