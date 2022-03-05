@@ -1,3 +1,5 @@
+//Hambuger Menu toggle effect.
+
 var hambuger = document.querySelector("#menubar");
 var menubar = document.querySelector(".menu-bar");
 var lowerNav = document.querySelector("#navUl");
@@ -40,7 +42,7 @@ form.addEventListener("submit", function (submit) {
   }
 });
 
-// Business Logic
+// Business Logic. Do the math
 function calculator(gender, month, date, year) {
   var yearArray = year.toString().split("");
   var cc = parseInt([yearArray[0], yearArray[1]].join(""));
@@ -61,6 +63,8 @@ function calculator(gender, month, date, year) {
   ];
   let akanFmale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   let switchAns = ansRnd.toString() + gender;
+
+  //Conditional Switch Statement.
 
   switch (switchAns) {
     case "1male":
