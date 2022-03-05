@@ -35,6 +35,8 @@ form.addEventListener("submit", function (submit) {
     event.preventDefault();
   } else {
     calculator(gender, month, date, year);
+    event.preventDefault();
+    location = window.location["href"];
   }
 });
 
@@ -118,6 +120,6 @@ function calculator(gender, month, date, year) {
       alert("Your Akan name is " + akanFmale[6]);
       break;
     default:
-      alert("An error occured, please try again");
+      alert(switchAns);
   }
 }
