@@ -2,6 +2,8 @@
 
 #### A nice and clean website , 4th March 2022
 
+[Click to view design](https://www.figma.com/file/KbCJo707tPX8RE1ldNZcAK/Akhan-names?node-id=0%3A1)
+
 #### By ** DevJamesnjoroge**
 
 ## Description
