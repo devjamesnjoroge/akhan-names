@@ -38,7 +38,7 @@ form.addEventListener("submit", function (submit) {
   } else {
     calculator(gender, month, date, year);
     event.preventDefault();
-    location = window.location["href"];
+    window.location.reload();
   }
 });
 
